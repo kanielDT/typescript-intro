@@ -44,3 +44,26 @@ function sum(x: number,y: number): number {
 // console.log(sum(4,5))
 let total: number = sum(4,6)
 console.log(total)
+
+function debug(message: string): void {
+    console.log(message)
+}
+
+debug("hello world")
+
+interface  person {
+    firstName: string,
+    age: number,
+    children: string[],
+    hasCertificate?: boolean,
+
+}
+
+let kaniel: person = {
+    firstName: "me",
+    age: 23,
+    children: ["Lily", "David"],
+    hasCertificate: true
+}
+
+console.log(kaniel)
